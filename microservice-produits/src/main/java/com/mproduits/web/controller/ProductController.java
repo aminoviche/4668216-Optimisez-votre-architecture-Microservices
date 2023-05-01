@@ -1,6 +1,6 @@
 package com.mproduits.web.controller;
 
-import com.mproduits.configuration.ApplicationPropertiesConfiguration;
+import com.mproduits.configurations.ApplicationPropertiesConfiguration;
 import com.mproduits.dao.ProductDao;
 import com.mproduits.model.Product;
 import com.mproduits.web.exceptions.ProductNotFoundException;

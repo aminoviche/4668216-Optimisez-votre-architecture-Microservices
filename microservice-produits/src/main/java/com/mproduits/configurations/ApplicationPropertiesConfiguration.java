@@ -1,4 +1,4 @@
-package com.mproduits.configuration;
+package com.mproduits.configurations;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -11,15 +11,11 @@ public class ApplicationPropertiesConfiguration
 
     private int limitDeProduits;
 
-    public int getLimitDeProduits()
-    {
-
+    public int getLimitDeProduits() {
         return limitDeProduits;
-
     }
 
-    public void setLimitDeProduits(int limitDeProduits)
-    {
+    public void setLimitDeProduits(int limitDeProduits) {
         this.limitDeProduits = limitDeProduits;
     }
 }
